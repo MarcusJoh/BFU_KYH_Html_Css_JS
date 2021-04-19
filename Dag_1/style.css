@@ -1,0 +1,20 @@
+p {
+    color: #59718e;
+    font-style: italic;
+    font-size: 7px;
+}
+h1 {
+    color: aqua;
+}
+ul {
+    background-color: black;
+}
+
+li {
+    color: wheat;
+}
+
+.listColor{
+    color:#f11313;
+
+}
