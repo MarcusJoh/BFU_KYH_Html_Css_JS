@@ -12,21 +12,21 @@ const
 
 //strings
 
-var aString="I am a string";
-var bString='I am also a string';
+let aString="I am a string";
+let bString='I am also a string';
 
 
-var bStingButBig= bString.toUpperCase();
+let bStingButBig= bString.toUpperCase();
 console.log( bStingButBig );
 
 
 //numbers
-var number=42;
+let number=42;
 
 
 // not a number, but we can make it one
-var a = "42";
-var b = Number( a );
+let a = "42";
+let b = Number( a );
 
 console.log( a );	// "42"
 console.log( b );	// 42
@@ -34,8 +34,8 @@ console.log( b );	// 42
 
 //boolean
 
-var aBool=true; 
-var bBool=false;
+let aBool=true; 
+let bBool=false;
 
 console.log(aBool);
 
@@ -44,8 +44,8 @@ console.log(aBool);
 
 // arreys are groups of variables
 
-var places = ["Sweden", "Norway", "Canada"];
-var numbers = [1, 2, 3];
+let places = ["Sweden", "Norway", "Canada"];
+let numbers = [1, 2, 3];
 
 // to print them in the console you need to target it with [posistion]
 // posistion is the place in the arrey, 0-2 in both the arreys here
@@ -54,7 +54,7 @@ console.log(numbers[2]);
 
 
 // get the length of an arrey
-var prices = [2, 4, 15,23,5,0];
+let prices = [2, 4, 15,23,5,0];
 
 console.log(prices.length);
 
@@ -82,7 +82,7 @@ console.log(numbers);
 console.log(numbers);
 
 //Can be empty 
-var emptyArrey = [];
+let emptyArrey = [];
 emptyArrey.length = 3;
 console.log(emptyArrey); // [undefined, undefined, undefined]
 

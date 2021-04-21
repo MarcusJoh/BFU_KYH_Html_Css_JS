@@ -14,8 +14,8 @@ if (1 < 18) {
 	console.log("Yes1");
 }
 
-var a = 1;
-var b = 18;
+let a = 1;
+let b = 18;
 
 // so is this
 if (a < b) {
